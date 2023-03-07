@@ -1,4 +1,4 @@
-# SafeBox
+# Kinko
 Put your text in SafeBox and share your words with people you want to hear!
 # How to use
 You can use SafeBox from cli like below:
