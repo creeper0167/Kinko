@@ -1,9 +1,9 @@
 # Kinko
-Put your text in SafeBox and share your words with people you want to hear!
+Put your text in Kinko and share your words with people you want to hear!
 # How to use
-You can use SafeBox from cli like below:
+You can use Kinko from cli like below:
 
-``java SafeBox.java -o [option] -t [your text]``
+``java Kinko.java -o [option] -t [your text]``
 
 There is two option available at the time:
 
