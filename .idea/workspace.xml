@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dfccfef-bcc2-44f3-aa0e-8e4dd737e0f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Safe Box.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Safe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SafeBox.java" afterDir="false" />
+    <list default="true" id="7dfccfef-bcc2-44f3-aa0e-8e4dd737e0f9" name="Changes" comment="init version of safebox">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Color/ConsoleColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JcommanderClasses/Args.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Safe Box.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Safe Box.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Safe.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Safe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Safe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Safe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SafeBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SafeBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SafeBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SafeBox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +33,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,9 +60,22 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="withParams" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="SafeBox" />
+      <module name="Safe Box" />
+      <option name="PROGRAM_PARAMETERS" value="-F=C:\Users\mabna\Documents\test\userFile2.txt -T=encrypt -O=myFile2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,11 +84,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678143450467</updated>
-      <workItem from="1678143451691" duration="9236000" />
+      <workItem from="1678143451691" duration="10220000" />
+      <workItem from="1678225211685" duration="9481000" />
     </task>
+    <task id="LOCAL-00001" summary="init version of safebox">
+      <created>1678153624591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678153624591</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init version of safebox">
+      <created>1678153745448</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678153745448</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init version of safebox" />
+    <option name="LAST_COMMIT_MESSAGE" value="init version of safebox" />
   </component>
 </project>
