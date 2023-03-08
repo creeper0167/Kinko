@@ -1,13 +1,22 @@
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Random;
 import java.util.stream.Collectors;
 
 public class Safe {
-    private Queue<Character> input;
+    public LinkedList<Character> getInput() {
+        return input;
+    }
+
+    private String userPath;
+    private LinkedList<Character> input;
     private LinkedList<Character> output;
     private LinkedList<Character> key;
-    private int upperBound = 127;
+    private final int upperBound = 127;
 
     public Safe(){
         input = new LinkedList<>();
@@ -41,8 +50,13 @@ public class Safe {
     public String getKey(){
         return key.toString();
     }
-    public void encrypt(String in){
-        setInput(in);
+    public void encrypt(String outputName) throws Exception{
+        String pathToWrite = System.getProperty("user.home") + "\\Documents\\Kinko\\";
+        File dir = new File(pathToWrite);
+        if (!dir.exists())
+            dir.mkdirs();
+
+        FileWriter fileWriter = new FileWriter(pathToWrite + outputName + ".txt");
         Random random = new Random();
         int randomCharacter;
         int charAscii;
@@ -56,7 +70,11 @@ public class Safe {
             finalChar = (char) charAscii;
             output.add(finalChar);
         }
-
+        //save encrypted text to file
+        for(Character ch: output){
+            fileWriter.write(ch);
+        }
+        fileWriter.close();
     }
 
 
@@ -71,5 +89,17 @@ public class Safe {
         }
 
         return o;
+    }
+
+    public void readFile(String path) throws Exception{
+        userPath = path;
+        input.clear();
+        FileReader fileReader = new FileReader(path);
+
+        int i;
+        while ((i= fileReader.read()) != -1){
+            input.add((char)i);
+        }
+        fileReader.close();
     }
 }
